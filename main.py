@@ -1,6 +1,6 @@
 import time
 import threading
-import sensor.Sensor as sensor
+from input_sen.sensor import Sensor
 from controller.armario import Armario
 from controller.listacompra import ListaCompra
 import paho.mqtt.client as mqtt
@@ -8,11 +8,14 @@ import paho.mqtt.client as mqtt
 #Conectando ao mqtt
 mqttBroker ="test.mosquitto.org"
 
-client = mqtt.Client("armarioC115InatelTEST3")
+client = mqtt.Client("armarioC115Inatel")
 client.connect(mqttBroker)
 
 #instanciando um armario
 armario = Armario()
+
+#Instanciando um sensor
+sensor = Sensor()
 
 #instanciando um lista de compras
 listacompra = ListaCompra()
@@ -65,6 +68,7 @@ def consumir():
     global end
     end = True
 
+sensor.init()
 x = threading.Thread(target=readSensor, args=())
 y = threading.Thread(target=readList, args=())
 z = threading.Thread(target=consumir, args=())
