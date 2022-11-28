@@ -1,8 +1,8 @@
-# Projeto IoT: Armario de Cozinha
+# Projeto IoT: Despensa Inteligente
 
 ## 1 - Descrição do projeto :four_leaf_clover:
 
-Repositório contendo códigos para a avaliação final de C115, a proposta é informa a quantidade de produtos dentro do armário e quando o produto estiver acabando o mesmo é inserido dentro de uma lista de compras através de sensores e do protocolo MQTT, para envio das informações. Este projeto inicialmente não utiliza sensores externos, o mesmo realiza uma simulação deste sensore (através dos aquivos '''main.py''' e '''sensor.py'''. 
+Repositório contendo códigos para a avaliação final de C115, a proposta é informa a quantidade de produtos dentro do armário e quando o produto estiver acabando o mesmo é inserido dentro de uma lista de compras através de sensores e do protocolo MQTT, para envio das informações. Este projeto inicialmente não utiliza sensores externos, o mesmo realiza uma simulação deste sensore (através dos aquivos '''main.py''' e '''sensor.py'''). 
 
 Para o projeto foi utilizado:
 
@@ -83,4 +83,4 @@ python main.py
 | **Nome**        |
 |-----------------|
 | [Matheus Chagas](https://github.com/Matheusilva431) |
-| [Isadora Bello](https://github.com/isadorabello1) |
+| [Isadora Bello](https://github.com/isadorabello) |
