@@ -2,11 +2,11 @@
 
 ## 1 - Descrição do projeto :four_leaf_clover:
 
-Repositório contendo códigos para a avaliação final de C115, a proposta é informa a quantidade de produtos dentro do armário e quando o produto estiver acabando o mesmo é inserido dentro de uma lista de compras através de sensores e do protocolo MQTT para envio das informações. Este projeto inicialmente não utiliza sensores externos, o mesmo realiza uma simulação deste sensore (através dos aquivos '''main.py''' e '''sensor.py'''. 
+Repositório contendo códigos para a avaliação final de C115, a proposta é informa a quantidade de produtos dentro do armário e quando o produto estiver acabando o mesmo é inserido dentro de uma lista de compras através de sensores e do protocolo MQTT, para envio das informações. Este projeto inicialmente não utiliza sensores externos, o mesmo realiza uma simulação deste sensore (através dos aquivos '''main.py''' e '''sensor.py'''. 
 
 Para o projeto foi utilizado:
 
-| **Itens** | **Software**  |
+| **Tópicos** | **Software**  |
 |------------------|--------------|
 | IDE/Compilador | VS Code |
 | Protocolo | MQTT |
@@ -35,6 +35,7 @@ https://apps.microsoft.com/store/detail/mqttbox/9NBLGGH55JZG?hl=pt-br&gl=br
 
 ### Configuração do MQTTBox(Windows):
 ![image](https://user-images.githubusercontent.com/85804680/204111455-fef3ee68-9b04-4fdc-ab64-0f934d1c8e87.png)
+![image](https://user-images.githubusercontent.com/85804680/204375624-7ba5b284-8c03-499a-b6b1-80691f2b7964.png)
 
 
 ### Instalando o IoT MQTT Panel(Android):
